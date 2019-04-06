@@ -2,6 +2,7 @@
 # 1145A- Thanos Sort
 # April Fool Day Contest 2019
 
+#Thanos Sort is a sorting algorithm which removes half of the list/array until it is perfectly balanced.
 
 def thanos_sort(y):
 
