@@ -1,6 +1,5 @@
 # 1119A - Ilya and a Colorful Walk
-
-
+# CODEFORCES
 
 n = int(input()) 
 y = input().split(" ")
