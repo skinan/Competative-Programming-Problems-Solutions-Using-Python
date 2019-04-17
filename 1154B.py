@@ -20,14 +20,14 @@ def main():
 
     temp_list = input().split(" ")
     
-    #Convert it to "dictonary" to remove duplicates from lists.
+    # Convert it to "dictonary" to remove duplicates from lists.
     temp_list = list(dict.fromkeys(temp_list))
 
     num = []
     # Make all the strings in temp_list <int> type data and append it to new list "num".
     for i in range(len(temp_list)):
        num.append(int(temp_list[i]))
-    #Sort the list.
+    # Sort the list.
     num.sort()
     
     result = equal(num)
